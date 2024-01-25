@@ -1,0 +1,343 @@
+body {
+    background-color: black;
+    z-index: 0;
+}
+
+div {
+    color: white;
+}
+
+#intro {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 200px;
+    visibility: visible;
+    text-align: center;
+}
+
+#welcome {
+    position: fixed;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+}
+
+#introduction {
+    position: fixed;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+#agree-to-terms {
+    position: fixed;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+#check {
+    position: fixed;
+    left: 50%;
+    top: 130px;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+#bunny-background {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    background: url('images/bunny.jpg');
+    background-size: cover;
+    visibility: hidden;
+}
+
+#bunny-intermission {
+    position: fixed;
+    left: 50%;
+    top: 200px;
+    color: black;
+    font-size: 36px;
+    transform: translate(-50%);
+}
+
+#pink-background {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(150, 83, 94);
+    background-size: cover;
+    visibility: hidden;
+    z-index: 2;
+}
+
+#game-one {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+    visibility: hidden;
+    text-align: center;
+    z-index: 3;
+}
+
+#challenge_one-intro {
+    position: fixed;
+    left: 50%;
+    top: 20px;
+    transform: translate(-50%);
+    visibility: hidden;
+    z-index: 3;
+}
+
+#challenge_one-explanation {
+    position: fixed;
+    left: 50%;
+    top: 150px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    visibility: hidden;
+    z-index: 3;
+}
+
+#challenge_one-explanation-two {
+    position: fixed;
+    left: 50%;
+    top: 170px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    visibility: hidden;
+    z-index: 3;
+}
+
+#challenge_one-explanation-three {
+    position: fixed;
+    left: 50%;
+    top: 190px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    visibility: hidden;
+    z-index: 4;
+}
+
+#first-box {
+    position: fixed;
+    left: 50%;
+    top: 230px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    visibility: hidden;
+    z-index: 3;
+}
+
+.boxes {
+    background-color: rgb(150, 83, 94);
+    color: rgb(150, 83, 94);
+    width: 50px;
+    height: 35px;
+    padding-top: 15px;
+    cursor: default;
+    visibility: hidden;
+}
+
+.carrot:hover {
+    background-color: white;
+}
+
+.juice:hover {
+    background-color: black;
+    color: white;
+}
+
+#box-area {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1400px;
+    height: 700px;
+    visibility: hidden;
+    text-align: center;
+    z-index: 4;
+}
+
+#firstbox {
+    position: fixed;
+    left: 350px;
+    top: 230px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    z-index: 4;
+}
+
+#secondbox {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    z-index: 3;
+}
+
+#thirdbox {
+    position: fixed;
+    left: 190px;
+    top: 300px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    z-index: 3;
+}
+
+#fourthbox {
+    position: fixed;
+    left: 500px;
+    top: 40px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+
+    z-index: 3;
+}
+
+#fifthbox {
+    position: fixed;
+    left: 900px;
+    top: 600px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    z-index: 3;
+}
+
+#sixthbox {
+    position: fixed;
+    left: 400px;
+    top: 500px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    z-index: 3;
+}
+
+#seventhbox {
+    position: fixed;
+    left: 1100px;
+    top: 200px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    z-index: 3;
+}
+
+#eighthbox {
+    position: fixed;
+    left: 1200px;
+    top: 0px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    z-index: 3;
+}
+
+#ninthbox {
+    position: fixed;
+    left: 20px;
+    top: 570px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    z-index: 3;
+}
+
+#tenthbox {
+    position: fixed;
+    left: 1150px;
+    top: 400px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    z-index: 3;
+}
+
+#eleventhbox {
+    position: fixed;
+    left: 700px;
+    top: 150px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    z-index: 3;
+}
+
+#continue {
+    position: fixed;
+    left: 50%;
+    top: 300px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    visibility: hidden;
+    z-index: 3;
+}
+
+#continue-button {
+    position: fixed;
+    left: 875px;
+    top: 292px;
+    transform: translate(-50%);
+    visibility: hidden;
+}
+
+#bunny-background-two {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    background: url('images/bunny2.jpg');
+    background-size: cover;
+    visibility: hidden;
+    z-index: 4;
+}
+
+#congrats {
+    position: fixed;
+    left: 50%;
+    top: 200px;
+    color: white;
+    font-size: 36px;
+    transform: translate(-50%);
+    visibility: hidden;
+    z-index: 4;
+}
+
+#black-background {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    visibility: hidden;
+    z-index: 3;
+}
+
+#search-foot {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    color: white;
+    font-size: 20px;
+    transform: translate(-50%);
+    visibility: hidden;
+    z-index: 4;
+}
